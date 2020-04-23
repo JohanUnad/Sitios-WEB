@@ -1,0 +1,120 @@
+body{
+    background-color: lightblue;
+    color: black;
+}
+
+nav, header, .contenedor, footer{
+    max-width: 80%;
+    margin: auto;
+}
+
+nav{
+    background-color: blue;
+    text-align: center;
+}
+
+header{
+    background-color: white;
+}
+header h1{
+    text-align: center;
+    color: blue;
+    float: right;
+    margin: 0;
+    padding: 30px 200px;
+    font-family: cursive;
+}
+
+.contenedor{
+    background-color: whitesmoke;
+}
+
+.principal{
+    background-color: lightgray;
+    display: inline-block;
+    max-width: 65%;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    letter-spacing: 1px;
+}
+
+aside{
+    background-color: whitesmoke;
+    display: inline-block;
+    max-width: 35%;
+    text-align: center;
+}
+
+/*Menú*/
+.menu li{
+    display: inline-block;
+}
+
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Lecturas{
+    display: none;
+    background-color: blue;
+    position: absolute;
+}
+.Lecturas a{
+    color: white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .Lecturas{
+    display: block;
+}
+
+.Multimedia{
+    display: none;
+    background-color: blue;
+    position: absolute;
+}
+.Multimedia a{
+    color: white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .Multimedia{
+    display: block;
+}
+
+.Actividades{
+    display: none;
+    background-color: blue;
+    position: absolute;
+}
+.Actividades a{
+    color: white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .Actividades{
+    display: block;
+}
+
+li a:hover{
+    background-color: darkblue;
+}
+
+.principal img{
+    list-style-image: center;
+}
+
+.principal p{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
